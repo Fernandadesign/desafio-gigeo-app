@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 70px;
+  margin: 0 auto;
+  &__logo {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+button {
+  width: 100px;
+  height: 40px;
+}
+.btn-blue {
+  background-color: PaleTurquoise;
+}
+.btn-pink {
+  background-color: tomato;
+}
+
+
+@media only screen and (max-width: 768px){
+  .icon {
+    display: none!important;
+  }
+}
